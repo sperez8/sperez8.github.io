@@ -37,9 +37,9 @@ plugins:
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-# twitter:
-#   username: junkhoalic # jekyll-seo-tag > Owners twitter username
+jekyll-mentions: https://www.instagram.com # jekyll-mentions > service used when @replying
+instagram:
+  username: lunaticatyo # jekyll-seo-tag > Owners instagram username
 author: SarahPerez # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Sarah Perez # jekyll-seo-tag > real name
@@ -67,7 +67,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "/assests/black_tusk1.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -92,9 +92,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Black Tusk stories" # Site name or title, also used in jekyll-seo-tag
+title: "Black Tusk Tales" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Black Tusk stories is a collection of images, moments, expressions, tales. All for you to get lost in." # Site description and default description, also used in jekyll-seo-tag
+description: "Black Tusk Tales is a collection of images, moments, expressions, stories. All for you to get lost in." # Site description and default description, also used in jekyll-seo-tag
 url: "https://sperez8.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/sperez8/sperez8.github.io/"
@@ -128,8 +128,6 @@ navigation_header:
   url: /categories/
 - title: Search
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Created by Sarah Perez
